@@ -1,0 +1,125 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container-fluid.navv{
+    padding-top:0;
+    padding-bottom:0;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.container-fluid {
+
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+.textColor {
+    color: #030F27;
+}
+
+.navbarBgDark {
+    background: #2C2929;
+    border-radius:7px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #EDA72F;
+}
+
+.nav-link:hover {
+    color: #EDA72F;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.getBtn {
+    color: #fff;
+}
+
+.sideLine {
+    border-right: 1px solid #030F27;
+}
+
+.iconHeight {
+    height: 24px;
+    width: 24px;
+}
+
+.bg-warning {
+      
+    position: relative;
+    z-index: 0;
+}
+.container-fluid.navvab.p-0 {
+    margin-top: -57px !important;
+    position: relative;
+}
+ header {
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s;
+    z-index: 999;
+}
+i.fa-solid.fa-magnifying-glass {
+    cursor: pointer;
+}
+
+button.navbar-toggler.w-100 {
+    border: 0;
+}
+.container.nav {
+        padding: 0;
+    }
+
+    .grand-parent {
+display: flex;
+}
+    i#topicon {
+        position: relative;
+        z-index: 9999;
+        cursor: pointer;
+        margin-right:5px;
+        transition: transform 1s ease;
+    }
+    i#topicon:hover {
+        transform: scale(1.5);
+    }
+    .icon-parent.pb-5 {
+        display: flex;
+        align-items: center;
+    }
+    .col-md-6.float-right {
+        display: flex;
+        justify-content: end;
+    }
+
+    @media screen and (max-width: 1023px){
+        .container-fluid.navvab.p-0{
+            padding-top:0;
+            padding-bottom:0;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+.col-md-6.float-right {
+    display: flex;
+    justify-content: start;
+}
+
+        .container-fluid.hero {
+
+background-position: center center;
+
+}
+.container-fluid.navv{
+    padding-top:0;
+    padding-bottom:0;
+    width: 100%;
+}
+
+}

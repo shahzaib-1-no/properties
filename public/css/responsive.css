@@ -1,0 +1,374 @@
+@media screen and (min-device-width: 1900px) and (max-device-width: 2700px) { 
+
+    .logoo {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+      @media (min-width: 1280px) {
+        .tabs-to-dropdown .nav-wrapper {
+          padding: 15px 30px;
+        }
+        /* #lgo {
+          margin-left: 0px;
+      } */
+      }
+
+      @media screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
+
+        .container-fluid.timer {
+          background-image: url(../images/timer.png);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          
+          margin-top: -90px;
+         
+        }
+        .container-fluid.order {
+ 
+          margin-top: -65px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+        }
+        
+        div#navbarSupportedContent {
+          position: absolute;
+          width: 100%;
+          top: 100px;
+        }
+        
+        .container-fluid.about-hero {
+  margin-top:-150px;
+  padding-top: 60px; 
+   padding-bottom: 60px;
+}
+        div#pad {
+          padding-left: 0px;
+      }
+      img#forabsolute {
+     
+        display: none;
+    }
+
+    span.headerfontsize {
+      font-size: 38px;
+      line-height: 50px;
+  }
+
+  .col-md-1.m-auto.dividernone {
+    display: none;
+    }
+
+    h3.num {
+      font-size: 40px;
+  }
+  
+  h4.numdet {
+       font-size: 16px;
+  }
+      h3#discover_diet {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      
+      p#discover_diet {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .container.fitness {
+ 
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .container-fluid.blogpost {
+        
+        margin-bottom: 0px;
+      
+      }
+
+      #form1 {
+       
+        margin-left: -19px;
+        width: 300px;
+      }
+      
+      }
+
+
+
+
+ @media screen and (max-width: 767px) {
+        .accordion-style .btn-link {
+            padding: 15px 40px 15px 55px;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        .accordion-style .btn-link {
+            padding: 15px 20px 15px 55px;
+        }
+    }
+
+    @media screen and (min-device-width: 100px) and (max-device-width: 1300px) { 
+      #lgo{
+        margin-left: 0px;
+       }
+
+      
+       
+    
+  }
+ 
+
+      @media screen and (min-device-width: 100px) and (max-device-width: 767px) { 
+        #lgo{
+          margin-left: 0px;
+         }
+
+         .container-fluid.discover {
+         
+           padding-left: 10px; 
+          padding-right: 10px; 
+         
+      }
+
+      #form1 {
+       
+        margin-left: -19px;
+        width: 300px;
+      }
+
+          .sec2parentdiv.formargin {
+            margin-top:0px;
+        }
+
+        img#forabsolute {
+          display: none;
+        }
+
+        button.subscribe__btn {
+          margin-left: 0px;
+        }
+        div#pad {
+          padding-left: 0px;
+        }
+
+        .dividernone{
+          display: none;
+        }
+
+        h3#discover_diet {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+        
+        p#discover_diet {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+        .container.fitness {
+ 
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+
+        .container-fluid.blogpost {
+        
+          margin-bottom: 0px;
+        
+        }
+        .faqsfooter{
+          margin-top: 0px;
+        }
+
+        .container-fluid.order {
+      
+        margin-top: -65px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      
+      }
+
+      h2 {
+      font-size: 33px;
+      line-height: 40px;
+       }
+       span.banner {
+     
+       
+        font-size: 40px;
+        font-style: normal;
+    }
+
+    h1 {
+     
+      font-size: 45px;
+      font-weight: 700;
+    }
+
+    h3 {
+      
+      font-size: 40px;
+     
+      line-height: 52.5px;
+      
+      }
+      .card.order {
+        margin-top: 10px;
+    }
+    .wrapper.row {
+      padding: 1rem;
+  }
+
+  button.add-to-cart.btn.btn-default {
+   
+    padding-left: 0px; 
+    padding-right: 0px;
+  
+    }
+    .col-md-2.imagediv {
+      display: none;
+  }
+
+  span.header {
+    font-size: 40px;
+}
+
+span.product {
+    font-size: 40px;
+}
+
+.container-fluid.howitworks {
+ 
+  
+ background: none;
+  
+ 
+}
+span.headerfontsize {
+  font-size: 38px;
+  line-height: 50px;
+}
+h3.num {
+  font-size: 40px;
+}
+
+h4.numdet {
+   font-size: 16px;
+}
+
+.tabs-to-dropdown .tab-content .container-fluid {
+    
+  padding: 0;
+}
+
+.number-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec2row2col div {
+padding-left: 0px;
+
+}
+img.img-fluid.logofooter {
+  width: 51%;
+}
+
+/* .nav_left {
+ width: 100%;
+  position: absolute;
+  z-index: 9999;
+
+
+} */
+div#navbarSupportedContent {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+}
+
+.container-fluid.about-hero {
+  
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.container.howitworkscontainer {
+  padding-top: 0px;
+}
+.container.whatdonotbuy {
+  padding-bottom: 0px;
+}
+
+.container-fluid.order {
+ 
+  margin-top: -65px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.container {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+span.header {
+  line-height: 50px;
+}
+span.product {
+  line-height: 50px;
+}
+h3#discover_diet {
+  font-size: 34px;
+}
+.container-fluid.about {
+  margin-top: 0px;
+}
+li#lange {
+  margin-right: 0rem;
+}
+
+ul.dropdown-menu.pull-right.show {
+  margin-left: -73px;
+}
+
+.container-fluid.timer {
+  background-image: url(../images/timer.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+  margin-top: -90px;
+ 
+}
+    }
+
+
+    @media screen and (min-width: 992px) {
+        .sideLine {
+            border-right: none;
+        }
+
+        .iconHeight {
+            height: 46px;
+            width: 46px;
+        }
+    }
+
+
+    @media screen and (max-width: 767px) {
+      .accordion-style .btn-link {
+          padding: 15px 40px 15px 55px;
+      }
+
+      .owl-carousel .owl-dots .owl-dot {
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        border-radius: 50%;
+        background: black;
+        position: relative; }
+        .owl-carousel .owl-dots .owl-dot:hover, .owl-carousel .owl-dots .owl-dot:focus {
+          outline: none !important; }
+        .owl-carousel .owl-dots .owl-dot.active {
+          background: #d4ab58; }
+  }
