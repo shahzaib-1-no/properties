@@ -1,3 +1,5 @@
 @include('header.header')
-
+@stack('harder_script')
+@yield('main')
+@stack('footer_script')
 @include('footer.footer')
