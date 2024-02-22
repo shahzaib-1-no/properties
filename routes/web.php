@@ -23,3 +23,12 @@ Route::get('blog',function (){
 Route::get('contact',function (){
     return view('contact.contact');
 });
+
+Route::get('/about', function () {
+    return view('about.about-us');
+});
+
+Route::get('/services', function () {
+    return view('services.services');
+});
+

@@ -254,10 +254,15 @@
                                     <a class="nav-link pe-3" href="{{asset('/')}}">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="about-us.php">About Us</a>
+                                    <!-- <a class="nav-link px-lg-3" href="about->us.php">About Us</a> -->
+                                    <a class="nav-link px-lg-3" href="{{asset ('about')}}">About Us</a>
+
                                 </li>
+
+
+
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="services.php">Service</a>
+                                    <a class="nav-link px-lg-3" href="{{asset ('services')}}"> Service</a>
                                 </li>
                                 <!--<li class="nav-item">-->
                                 <!--    <a class="nav-link px-lg-3" href="#">Products</a>-->
@@ -308,3 +313,6 @@
             </form>
         </div>
     </div>
+
+
+
