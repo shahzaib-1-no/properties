@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Business Properties</title>
+    <title>Business Properties:: @yield('title')</title>
     <link rel="icon" href="images/newlogo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -244,14 +244,14 @@
                     <nav class="navbar navbar-expand-md justify-content-center justify-content-lg-between">
                         <div class="p-0">
                             <div class="display-5 fw-bold px-2 py-1 text-lg-start d-none d-md-block text-white"><a
-                                    href="index.php"><img src="images/newlogo.png" class="w-75"
+                                    href="{{asset('/')}}"><img src="images/newlogo.png" class="w-75"
                                         srcset="" /></a></div>
                         </div>
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                             <ul class="navbar-nav text-uppercase">
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="index.php">Home</a>
+                                    <a class="nav-link pe-3" href="{{asset('/')}}">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <!-- <a class="nav-link px-lg-3" href="about->us.php">About Us</a> -->
@@ -268,7 +268,7 @@
                                 <!--    <a class="nav-link px-lg-3" href="#">Products</a>-->
                                 <!--</li>-->
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="blog-grid.php">Blogs</a>
+                                    <a class="nav-link px-lg-3" href="{{asset('blog')}}">Blogs</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle px-lg-3" href="#" role="button"
@@ -290,7 +290,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="contact-us.php">Contact</a>
+                                    <a class="nav-link px-lg-3" href="{{asset('contact')}}">Contact</a>
                                 </li>
                             </ul>
                             <div class="d-none d-md-block text-white mr-3 align-items-center"
