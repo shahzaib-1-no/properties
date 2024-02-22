@@ -285,7 +285,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="contact-us.php">Contact</a>
+                                    <a class="nav-link px-lg-3" href="{{asset('contact')}}">Contact</a>
                                 </li>
                             </ul>
                             <div class="d-none d-md-block text-white mr-3 align-items-center"

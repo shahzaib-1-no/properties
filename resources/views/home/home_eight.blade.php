@@ -265,7 +265,7 @@
                 <div class="col-md-3 mt-2" id="team-col" >
                    <!---items start-->
                      <div class="parent-slider d-flex pt-4 px-3">
-                          <div class="foricon"><img src="{{asset('images/200+.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
+                          <div class="foricon"><img src="{{asset('images/200.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
                           <div class="fortext pl-4">
                               <h5 class="num" data-val="200">200+</h5>
                               <p>Team member</p>
@@ -278,7 +278,7 @@
                 <div class="col-md-3  mt-2" id="team-col">
                    <!---items start-->
                      <div class="parent-slider d-flex pt-4 px-3">
-                          <div class="foricon"><img src="{{asset('images/450+.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
+                          <div class="foricon"><img src="{{asset('images/450.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
                           <div class="fortext pl-4">
                               <h5 class="num" data-val="450">450+</h5>
                               <p>Total Projects</p>
@@ -291,7 +291,7 @@
                 <div class="col-md-3  mt-2" id="team-col">
                    <!---items start-->
                      <div class="parent-slider d-flex pt-4 px-3">
-                          <div class="foricon"><img src="{{asset('images/400+.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
+                          <div class="foricon"><img src="{{asset('images/400.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
                           <div class="fortext pl-4">
                               <h5 class="num" data-val="400">400+</h5>
                               <p>Setishfacfied</p>
@@ -304,7 +304,7 @@
                 <div class="col-md-3  mt-2" id="team-col">
                    <!---items start-->
                      <div class="parent-slider d-flex pt-4 px-3">
-                          <div class="foricon"><img src="{{asset('images/100+.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
+                          <div class="foricon"><img src="{{asset('images/100.png')}}" class="img-fluid w-75 h-75 float-right" /></div>
                           <div class="fortext pl-4">
                               <h5 class="num" data-val="100">100+</h5>
                               <p>Total Award</p>
