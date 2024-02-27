@@ -1,5 +1,6 @@
 @extends('welcome')
 @section('main')
+    
 
 <section class="section-hero">
     <div class="container-fluid">
@@ -160,3 +161,5 @@
         </div>
     
     </section>
+
+    @endsection
