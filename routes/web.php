@@ -45,4 +45,3 @@ Route::get('/sign_up', function () {
 Route::post('/register', [login_controller::class,'register'])->name('register');
 Route::post('login',[login_controller::class,'login'])->name('login');
 Route::get('user',[user_controller::class,'user'])->middleware('user')->name('user');
-

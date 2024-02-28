@@ -34,11 +34,13 @@ class login_controller extends Controller
         ]);
 
         if($register){
-            Auth::login($register);
+            $token = Auth::login($register);
             $user = Auth::User();
             session(['user' => $user]);
             if(Auth::User()->role== '2'){
-                return redirect()->route('user');
+                $tokens= $this->respondWithToken($token);
+                return response()->json(['message'=> $tokens]);
+                // return redirect()->route('user');
             }else if(Auth::user()->role=='1'){
                 return redirect()->route('admin');
 
@@ -47,27 +49,20 @@ class login_controller extends Controller
     }
 
     public function login (Request $request){
+
         $request->validate([
             'email' => 'required | email | regex:/@gmail\.com$/i',
             'password' => 'required',
         ]);
-        $credentials = [
-            'email' => $request['email'],
-            'password' => $request['password'],
-        ];
         
-        $check = Auth::attempt($credentials);
-        if ( $check ) {
-            $user = Auth::user();
-            session(['user' => $user]);
-            if(Auth::User()->role== '2'){
-                return redirect()->route('user');
-            }else if(Auth::user()->role=='1'){
-                return redirect()->route('admin');
+    }
 
-            }
-        }else{
-            return redirect()->back();
-        }
+    protected function respondWithToken($token)
+    {
+        return response()->json([
+            'access_token' => $token,
+            'token_type' => 'bearer',
+            'expires_in' => auth()->factory()->getTTL() * 60
+        ]);
     }
 }
