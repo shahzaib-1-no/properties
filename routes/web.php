@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\login_controller;
+use App\Http\Controllers\user_controller;
+use App\Http\Middleware\user;
+use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,3 +36,12 @@ Route::get('/services', function () {
     return view('services.services');
 });
 
+Route::get('/login', function () {
+    return view('auth.login');
+});
+Route::get('/sign_up', function () {
+    return view('auth.sign_up');
+});
+Route::post('/register', [login_controller::class,'register'])->name('register');
+Route::post('login',[login_controller::class,'login'])->name('login');
+Route::get('user',[user_controller::class,'user'])->middleware('user')->name('user');

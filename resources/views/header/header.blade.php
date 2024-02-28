@@ -282,8 +282,8 @@
                                                 Details</a></li>
                                         <li><a class="dropdown-item" href="/properties/services-details.php">Services
                                                 Details</a></li>
-                                        <li><a class="dropdown-item" href="/properties/login.php">Login</a></li>
-                                        <li><a class="dropdown-item" href="/properties/sign-up.php">Sign Up</a></li>
+                                        <li><a class="dropdown-item" href="{{asset('login')}}">Login</a></li>
+                                        <li><a class="dropdown-item" href="{{asset('sign_up')}}">Sign Up</a></li>
                                         <li><a class="dropdown-item" href="/properties/payment.php">Payment</a></li>
                                         <!--<li><a class="dropdown-item" href="#">Something else here</a></li>-->
                                     </ul>
