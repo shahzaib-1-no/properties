@@ -14,15 +14,16 @@ class membership extends Seeder
     public function run(): void
     {
 
-        ModelsMembership::create(['name' => 'simple']);
-        // if (!ModelsMembership::where('name' == 'simple')->exists()) {
-        // }
+        if (!ModelsMembership::where('name', 'simple')->exists()) {
+            ModelsMembership::create(['name' => 'simple']);
+        }
+        if (!ModelsMembership::where('name', 'verified')->exists()) {
+            ModelsMembership::create(['name' => 'verified']);
+        }
+        if (!ModelsMembership::where('name', 'gold')->exists()) {
+            ModelsMembership::create(['name' => 'gold']);
+        }
 
-        ModelsMembership::create(['name' => 'verified']);
-        // if (!ModelsMembership::where('name' == 'verified')->exists()) {
-        // }
-        ModelsMembership::create(['name' => 'gold']);
-        // if (!ModelsMembership::where('name' == 'gold')->exists()) {
-        // }
+        
     }
 }

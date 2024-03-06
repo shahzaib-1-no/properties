@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class membership extends Model
+class property_type extends Model
 {
     use HasFactory;
-    public $table= 'membership';
+    public $table= 'property_type';
     protected $fillable = [
         'name',
     ];
