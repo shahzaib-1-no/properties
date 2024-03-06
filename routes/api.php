@@ -35,10 +35,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     Route::post('login',[login_controller::class,'login']);
 // });
 
-Route::group([
-    'middleware' => 'api',
-], function ($router) {
-    Route::post('/login', [login_controller::class, 'login']); // Use the correct controller namespace
-    Route::get('user',[user_controller::class,'user'])->middleware('user');
-    Route::post('/register', [login_controller::class,'register']);
-});
+// Route::group([
+//     'middleware' => 'api',
+// ], function ($router) {
+//     Route::post('login', [login_controller::class, 'login'])->name('login'); 
+//     Route::get('user',[user_controller::class,'user'])->middleware('web')->name('user');
+//     Route::post('register', [login_controller::class,'register']);
+//     Route::get('logout',[login_controller::class, 'logout'])->name('logout');
+// });

@@ -18,6 +18,9 @@ class role extends Seeder
             role_model::create(['role_name' => 'admin']);
         }
 
+        if (!role_model::where('role_name', 'agent')->exists()) {
+            role_model::create(['role_name' => 'agent']);
+        }
         if (!role_model::where('role_name', 'user')->exists()) {
             role_model::create(['role_name' => 'user']);
         }

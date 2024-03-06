@@ -8,51 +8,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Font Awesome -->
-    <link href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css')}}" rel="stylesheet" />
+    <link href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css') }}"
+        rel="stylesheet" />
     <!-- Google Fonts -->
-    <link href="{{asset('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap')}}" rel="stylesheet" />
+    <link href="{{ asset('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap') }}"
+        rel="stylesheet" />
     <!-- MDB -->
-    <link href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css')}}" rel="stylesheet" />
+    <link href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css') }}" rel="stylesheet" />
 
-    <link href="{{asset('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap')}}"
+    <link href="{{ asset('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap') }}"
         rel="stylesheet">
 
-    <link href="{{asset('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css')}}" rel="stylesheet"
+    <link href="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css') }}" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" type="text/css" href="{{asset('//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css')}}" />
-    <link rel="stylesheet" href="{{asset('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css') }}" />
+    <link rel="stylesheet"
+        href="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css') }}">
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="{{asset('//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css')}}">
-    <link href="{{asset('https://cdn.jsdelivr.net/npm/input-range-slider@2.3.2/dist/css/input-range-slider.min.css')}}"
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css') }}">
+    <link
+        href="{{ asset('https://cdn.jsdelivr.net/npm/input-range-slider@2.3.2/dist/css/input-range-slider.min.css') }}"
         rel="stylesheet">
 
-    <script src="{{asset('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')}}"
+    <script src="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js') }}"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <link href='{{asset('https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css')}}' rel='stylesheet'>
-    <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css')}}"
+    <link href='{{ asset('https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css') }}' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css') }}"
         integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css')}}"
+    <link rel="stylesheet"
+        href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css') }}"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
-        href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css')}}"
+        href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css') }}"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{asset('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css')}}"
+    <link rel="stylesheet"
+        href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css') }}"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="{{asset('https://unpkg.com/aos@2.3.1/dist/aos.css')}}" rel="stylesheet">
+    <link href="{{ asset('https://unpkg.com/aos@2.3.1/dist/aos.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="css/navcss.css">
     <style>
 
@@ -244,37 +255,38 @@
                     <nav class="navbar navbar-expand-md justify-content-center justify-content-lg-between">
                         <div class="p-0">
                             <div class="display-5 fw-bold px-2 py-1 text-lg-start d-none d-md-block text-white"><a
-                                    href="{{asset('/')}}"><img src="images/newlogo.png" class="w-75"
+                                    href="{{ asset('/') }}"><img src="images/newlogo.png" class="w-75"
                                         srcset="" /></a></div>
                         </div>
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                             <ul class="navbar-nav text-uppercase">
                                 <li class="nav-item">
-                                    <a class="nav-link pe-3" href="{{asset('/')}}">Home</a>
+                                    <a class="nav-link pe-3" href="{{ asset('/') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <!-- <a class="nav-link px-lg-3" href="about->us.php">About Us</a> -->
-                                    <a class="nav-link px-lg-3" href="{{asset ('about')}}">About Us</a>
+                                    <a class="nav-link px-lg-3" href="{{ asset('about') }}">About Us</a>
 
                                 </li>
 
 
 
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="{{asset ('services')}}"> Service</a>
+                                    <a class="nav-link px-lg-3" href="{{ asset('services') }}"> Service</a>
                                 </li>
                                 <!--<li class="nav-item">-->
                                 <!--    <a class="nav-link px-lg-3" href="#">Products</a>-->
                                 <!--</li>-->
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="{{asset('blog')}}">Blogs</a>
+                                    <a class="nav-link px-lg-3" href="{{ asset('blog') }}">Blogs</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle px-lg-3" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Pages
                                     </a>
+
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="/properties/add-listing.php">Add
                                                 Listing</a></li>
@@ -282,15 +294,36 @@
                                                 Details</a></li>
                                         <li><a class="dropdown-item" href="/properties/services-details.php">Services
                                                 Details</a></li>
-                                        <li><a class="dropdown-item" href="{{asset('login')}}">Login</a></li>
-                                        <li><a class="dropdown-item" href="{{asset('sign_up')}}">Sign Up</a></li>
-                                        <li><a class="dropdown-item" href="/properties/payment.php">Payment</a></li>
+                                        @if (Route::has('login'))
+                                            <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+                                                @auth
+                                                    <li><a href="{{ route('user') }}"
+                                                            class="dropdown-item">Dashboard</a>
+                                                    </li>
+                                                @else
+                                                    <li><a href="{{ route('login') }}"
+                                                            class="dropdown-item">Log
+                                                            in</a></li>
+
+                                                    {{-- @if (Route::has('register'))
+                                                        <li><a href="{{ route('register') }}"
+                                                                class="ml-4 dropdown-item">Register</a>
+                                                        </li>
+                                                    @endif --}}
+                                                @endauth
+                                            </div>
+                                        @endif
+                                        {{-- <li><a class="dropdown-item" href="{{ asset('login') }}">Login</a></li>
+                                        <li><a class="dropdown-item" href="{{ asset('sign_up') }}">Sign Up</a></li>
+                                        <li><a class="dropdown-item" href="/properties/payment.php">Payment</a></li> --}}
                                         <!--<li><a class="dropdown-item" href="#">Something else here</a></li>-->
                                     </ul>
+
+
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link px-lg-3" href="{{asset('contact')}}">Contact</a>
+                                    <a class="nav-link px-lg-3" href="{{ asset('contact') }}">Contact</a>
                                 </li>
                             </ul>
                             <div class="d-none d-md-block text-white mr-3 align-items-center"
@@ -313,6 +346,3 @@
             </form>
         </div>
     </div>
-
-
-

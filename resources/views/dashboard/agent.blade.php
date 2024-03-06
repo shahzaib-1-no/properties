@@ -1,6 +1,6 @@
 @extends('dashboard.dashboard')
 @section('tile')
-    user
+    Agent
 @endsection
 @section('main')
     <p>work flow</p>
